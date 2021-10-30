@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0014582B24FBF14300259D78 /* UtilsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0014582A24FBF14300259D78 /* UtilsManager.swift */; };
+		002435DF251FB00E0084B812 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002435DE251FB00E0084B812 /* UserManager.swift */; };
+		003EBBFA24F62D49003F6305 /* iPray+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBBF624F62D49003F6305 /* iPray+UIColor.swift */; };
+		003EBBFB24F62D49003F6305 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003EBBF824F62D49003F6305 /* DefaultsManager.swift */; };
+		07B2F1D72403A88500DFAB13 /* bubbleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F1D62403A88500DFAB13 /* bubbleAnimations.swift */; };
+		07B2F1D82403A88500DFAB13 /* bubbleAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B2F1D62403A88500DFAB13 /* bubbleAnimations.swift */; };
+		09041AC01E8521410052A581 /* BubblesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09041ABF1E8521410052A581 /* BubblesViewController.swift */; };
+		091D1F3F1F207CD600E185F2 /* DatabaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 091D1F3D1F207CD600E185F2 /* DatabaseHandler.m */; };
+		092497461E84EE7A0077FF94 /* DataModuleClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092497451E84EE7A0077FF94 /* DataModuleClass.swift */; };
+		092F435B1E8A9C9D00363ACC /* ManageContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F435A1E8A9C9C00363ACC /* ManageContact.swift */; };
+		092F43611E8A9D1100363ACC /* BubblesNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092F43601E8A9D1100363ACC /* BubblesNavigationController.swift */; };
+		0949A96E1E727EFD00C410CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949A96C1E727EFD00C410CC /* Main.storyboard */; };
+		0949A9701E727EFD00C410CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0949A96F1E727EFD00C410CC /* Assets.xcassets */; };
+		0949A9731E727EFD00C410CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0949A9711E727EFD00C410CC /* LaunchScreen.storyboard */; };
+		094E74211F29B98300D2090C /* iPray.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 094E74201F29B98300D2090C /* iPray.sqlite */; };
+		0981BCD71EEFF56F00265B88 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0981BCD61EEFF56F00265B88 /* ResetPasswordViewController.swift */; };
+		09967FB21E7D55F7006CE20C /* PrayerRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09967FB11E7D55F7006CE20C /* PrayerRequestViewController.swift */; };
+		099B0C061E8FD0D400720639 /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099B0C051E8FD0D400720639 /* RootNavigationViewController.swift */; };
+		09AAAFAB1EA8CA1B006F2FE5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AAAFAA1EA8CA1B006F2FE5 /* CoreLocation.framework */; };
+		09AAAFD71EAA330D006F2FE5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AAAFD61EAA330D006F2FE5 /* Accelerate.framework */; };
+		09AAAFD91EAA335C006F2FE5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09AAAFD81EAA335C006F2FE5 /* AVFoundation.framework */; };
+		09BA8A961EE91E9200E7B9C7 /* ManageContactbackgroud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09BA8A951EE91E9200E7B9C7 /* ManageContactbackgroud.swift */; };
+		09D15C671E7A799F00D3E288 /* AccountKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C611E7A799F00D3E288 /* AccountKit.framework */; };
+		09D15C681E7A799F00D3E288 /* AccountKitStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09D15C621E7A799F00D3E288 /* AccountKitStrings.bundle */; };
+		09D15C691E7A799F00D3E288 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C631E7A799F00D3E288 /* Bolts.framework */; };
+		09D15C6A1E7A799F00D3E288 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C641E7A799F00D3E288 /* FBSDKCoreKit.framework */; };
+		09D15C6B1E7A799F00D3E288 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C651E7A799F00D3E288 /* FBSDKLoginKit.framework */; };
+		09D15C6C1E7A799F00D3E288 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C661E7A799F00D3E288 /* FBSDKShareKit.framework */; };
+		09D15C781E7A79C300D3E288 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C6F1E7A79C300D3E288 /* Constants.swift */; };
+		09D15C7A1E7A79C300D3E288 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C731E7A79C300D3E288 /* MBProgressHUD.m */; };
+		09D15C7C1E7A79C300D3E288 /* SupportingFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C761E7A79C300D3E288 /* SupportingFileViewController.swift */; };
+		09D15C7D1E7A79C300D3E288 /* webserviceUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C771E7A79C300D3E288 /* webserviceUrl.swift */; };
+		09D15C831E7AA1E900D3E288 /* ProfileSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C821E7AA1E900D3E288 /* ProfileSettingViewController.swift */; };
+		09D15C861E7AAF8600D3E288 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D15C851E7AAF8600D3E288 /* Reachability.m */; };
+		09D15C881E7ABC5800D3E288 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C871E7ABC5800D3E288 /* libsqlite3.0.tbd */; };
+		09D15C8A1E7AC43400D3E288 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D15C891E7AC43400D3E288 /* AFNetworking.framework */; };
+		09D99C681EA72FEA008A7FDD /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D99C671EA72FEA008A7FDD /* CountryListViewController.swift */; };
+		09D99C6C1EA73016008A7FDD /* MobileOtpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D99C6B1EA73016008A7FDD /* MobileOtpViewController.swift */; };
+		09D99C6E1EA7302C008A7FDD /* ForgotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D99C6D1EA7302C008A7FDD /* ForgotViewController.swift */; };
+		2717D8A52267372300BF4B84 /* ShareGroupPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2717D8A42267372200BF4B84 /* ShareGroupPrayerViewController.swift */; };
+		27250848224E16E7001B2BAD /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27250847224E16E7001B2BAD /* HelpViewController.swift */; };
+		273FF2E322787739009F79C3 /* TagPrayerPopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273FF2E222787738009F79C3 /* TagPrayerPopUpViewController.swift */; };
+		275F7DAC2345F60F0093D503 /* Montserrat-Black_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E84E1E7D0ABD0094B6CC /* Montserrat-Black_0.otf */; };
+		275F7DAD2345F60F0093D503 /* Montserrat-ExtraBold_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E84F1E7D0ABD0094B6CC /* Montserrat-ExtraBold_0.otf */; };
+		275F7DAE2345F60F0093D503 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8501E7D0ABD0094B6CC /* Montserrat-ExtraBold.otf */; };
+		275F7DAF2345F60F0093D503 /* Montserrat-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8511E7D0ABD0094B6CC /* Montserrat-ExtraLight.otf */; };
+		275F7DB02345F60F0093D503 /* Montserrat-Light_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8521E7D0ABD0094B6CC /* Montserrat-Light_0.otf */; };
+		275F7DB12345F60F0093D503 /* Montserrat-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8531E7D0ABD0094B6CC /* Montserrat-Medium.otf */; };
+		275F7DB22345F60F0093D503 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8541E7D0ABD0094B6CC /* Montserrat-Regular.otf */; };
+		275F7DB32345F60F0093D503 /* Montserrat-SemiBold_0.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8551E7D0ABD0094B6CC /* Montserrat-SemiBold_0.otf */; };
+		275F7DB42345F60F0093D503 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8561E7D0ABD0094B6CC /* Montserrat-SemiBold.otf */; };
+		275F7DB52345F60F0093D503 /* Montserrat-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8571E7D0ABD0094B6CC /* Montserrat-Thin.otf */; };
+		275F7DB62345F60F0093D503 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8581E7D0ABD0094B6CC /* Montserrat-UltraLight.otf */; };
+		275F7DB72345F60F0093D503 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E8591E7D0ABD0094B6CC /* Montserrat-Bold.ttf */; };
+		275F7DB82345F60F0093D503 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A9E85A1E7D0ABD0094B6CC /* Montserrat-Regular.ttf */; };
+		27826BCC22E861620073FF4D /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27826BCB22E861620073FF4D /* NotificationService.swift */; };
+		27947563224F37F3007DDF8E /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27947562224F37F3007DDF8E /* AddNewContactViewController.swift */; };
+		27E34E182265E76100397061 /* TagRequestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E34E172265E76100397061 /* TagRequestListViewController.swift */; };
+		43201DEA24892C3E000CA054 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43201DE924892C3E000CA054 /* Utility.swift */; };
+		43201DEB24892C3E000CA054 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43201DE924892C3E000CA054 /* Utility.swift */; };
+		4392079F24C010D300966CC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4392079E24C010D300966CC0 /* GoogleService-Info.plist */; };
+		439207A024C010D300966CC0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4392079E24C010D300966CC0 /* GoogleService-Info.plist */; };
+		43D9D59924508F7900C8FC2C /* UKWebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D9D59824508F7800C8FC2C /* UKWebViewViewController.swift */; };
+		8A00700E1F7CB40700369AC7 /* ServiceUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00700D1F7CB40700369AC7 /* ServiceUtility.swift */; };
+		8A1BA7C21F8398B100520B52 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BA7C01F8398B100520B52 /* PrayerTableViewCell.swift */; };
+		8A1BA7C31F8398B100520B52 /* PrayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A1BA7C11F8398B100520B52 /* PrayerTableViewCell.xib */; };
+		8A42760A1FC42D9200B16A41 /* UploadGroupImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4276091FC42D9200B16A41 /* UploadGroupImageViewController.swift */; };
+		8A42760C1FC42E4000B16A41 /* CreateGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42760B1FC42E4000B16A41 /* CreateGroupViewController.swift */; };
+		8A42760E1FC42EBB00B16A41 /* GroupSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42760D1FC42EBA00B16A41 /* GroupSettingViewController.swift */; };
+		8A4276101FC4308A00B16A41 /* GroupWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A42760F1FC4308A00B16A41 /* GroupWallViewController.swift */; };
+		8A4276121FC452A100B16A41 /* InviteAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A4276111FC452A100B16A41 /* InviteAdminViewController.swift */; };
+		8A5E30851FC6E87100F0ABB6 /* GroupPrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5E30831FC6E87000F0ABB6 /* GroupPrayerTableViewCell.swift */; };
+		8A702F9D200F535F00CF38A3 /* CopyPrayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A702F9C200F535F00CF38A3 /* CopyPrayerListViewController.swift */; };
+		8A77592B1FC82960004818A2 /* GroupPrayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E30841FC6E87100F0ABB6 /* GroupPrayerTableViewCell.xib */; };
+		8A79171D1FB1900A0081C25D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A79171C1FB190090081C25D /* HomeViewController.swift */; };
+		8A8B36AC20296D58008F6F00 /* BubbleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8B36AA20296D58008F6F00 /* BubbleCollectionViewCell.swift */; };
+		8A8B36AD20296D58008F6F00 /* BubbleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A8B36AB20296D58008F6F00 /* BubbleCollectionViewCell.xib */; };
+		8A95051E1FC2DA78003392F0 /* Group.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A95051C1FC2DA78003392F0 /* Group.storyboard */; };
+		8A9505201FC2DABE003392F0 /* GroupListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A95051F1FC2DABE003392F0 /* GroupListViewController.swift */; };
+		8AB4160F1FC57C7700704A57 /* SearchGroupPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4160E1FC57C7700704A57 /* SearchGroupPrayerViewController.swift */; };
+		8AB416121FC59D0700704A57 /* GroupListModulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB416101FC59D0600704A57 /* GroupListModulerViewController.swift */; };
+		8AB416131FC59D0700704A57 /* AddGroupPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB416111FC59D0600704A57 /* AddGroupPrayerViewController.swift */; };
+		8AD2B61F20204A770079837B /* AdoptedPrayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD2B61E20204A770079837B /* AdoptedPrayerListViewController.swift */; };
+		8AE4B4AB2003427600E352FA /* InviteMembersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE4B4AA2003427600E352FA /* InviteMembersViewController.swift */; };
+		9B1CFBEA25D417E300C054BE /* Login_FaceBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CFBE925D417E300C054BE /* Login_FaceBook.swift */; };
+		9B1CFBEB25D417E300C054BE /* Login_FaceBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CFBE925D417E300C054BE /* Login_FaceBook.swift */; };
+		9B1CFBEF25D4185300C054BE /* Login_Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CFBEE25D4185300C054BE /* Login_Apple.swift */; };
+		9B1CFBF025D4185300C054BE /* Login_Apple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B1CFBEE25D4185300C054BE /* Login_Apple.swift */; };
+		9DBDAB3F1F87B67800F9135A /* PrayerListModulerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBDAB3E1F87B67800F9135A /* PrayerListModulerViewController.swift */; };
+		AC386FC35BF0810CF93338E0 /* Pods_iPray.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77E855311167F0F9F52F1A1B /* Pods_iPray.framework */; };
+		E20D8E491E827B1800A5E204 /* AddPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D8E471E827B1800A5E204 /* AddPrayerViewController.swift */; };
+		E2A9E83D1E7A5AFF0094B6CC /* AccountCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8331E7A5AFF0094B6CC /* AccountCreateViewController.swift */; };
+		E2A9E83E1E7A5AFF0094B6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8341E7A5AFF0094B6CC /* AppDelegate.swift */; };
+		E2A9E83F1E7A5AFF0094B6CC /* DonationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8351E7A5AFF0094B6CC /* DonationViewController.swift */; };
+		E2A9E8401E7A5AFF0094B6CC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8361E7A5AFF0094B6CC /* LoginViewController.swift */; };
+		E2A9E8411E7A5AFF0094B6CC /* SearchIprayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8371E7A5AFF0094B6CC /* SearchIprayViewController.swift */; };
+		E2A9E8421E7A5AFF0094B6CC /* SharePrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8381E7A5AFF0094B6CC /* SharePrayerViewController.swift */; };
+		E2A9E8431E7A5AFF0094B6CC /* ShowPrayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E8391E7A5AFF0094B6CC /* ShowPrayerListViewController.swift */; };
+		E2A9E8441E7A5AFF0094B6CC /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E83A1E7A5AFF0094B6CC /* UploadImageViewController.swift */; };
+		E2A9E8461E7A5AFF0094B6CC /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9E83C1E7A5AFF0094B6CC /* WelcomeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0014582A24FBF14300259D78 /* UtilsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilsManager.swift; sourceTree = "<group>"; };
+		002435DE251FB00E0084B812 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		003EBBF624F62D49003F6305 /* iPray+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iPray+UIColor.swift"; sourceTree = "<group>"; };
+		003EBBF824F62D49003F6305 /* DefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		07B2F1D62403A88500DFAB13 /* bubbleAnimations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bubbleAnimations.swift; sourceTree = "<group>"; };
+		09041ABF1E8521410052A581 /* BubblesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubblesViewController.swift; path = Classes/BubblesViewController.swift; sourceTree = "<group>"; };
+		091D1F3C1F207CD600E185F2 /* DatabaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DatabaseHandler.h; path = "supporting file/DatabaseHandler.h"; sourceTree = SOURCE_ROOT; };
+		091D1F3D1F207CD600E185F2 /* DatabaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DatabaseHandler.m; path = "supporting file/DatabaseHandler.m"; sourceTree = SOURCE_ROOT; };
+		092497451E84EE7A0077FF94 /* DataModuleClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataModuleClass.swift; path = Classes/DataModuleClass.swift; sourceTree = "<group>"; };
+		092F435A1E8A9C9C00363ACC /* ManageContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManageContact.swift; path = Classes/ManageContact.swift; sourceTree = "<group>"; };
+		092F43601E8A9D1100363ACC /* BubblesNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubblesNavigationController.swift; path = Classes/BubblesNavigationController.swift; sourceTree = "<group>"; };
+		0949A9651E727EFC00C410CC /* iPray.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPray.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0949A96D1E727EFD00C410CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0949A96F1E727EFD00C410CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0949A9721E727EFD00C410CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0949A9741E727EFD00C410CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		094E74201F29B98300D2090C /* iPray.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = iPray.sqlite; sourceTree = "<group>"; };
+		0981BCD61EEFF56F00265B88 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		09967FB11E7D55F7006CE20C /* PrayerRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrayerRequestViewController.swift; path = Classes/PrayerRequestViewController.swift; sourceTree = "<group>"; };
+		099B0C051E8FD0D400720639 /* RootNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
+		09AAAFAA1EA8CA1B006F2FE5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		09AAAFD61EAA330D006F2FE5 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		09AAAFD81EAA335C006F2FE5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		09BA8A951EE91E9200E7B9C7 /* ManageContactbackgroud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ManageContactbackgroud.swift; path = Classes/ManageContactbackgroud.swift; sourceTree = "<group>"; };
+		09D15C611E7A799F00D3E288 /* AccountKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AccountKit.framework; path = SDK/FacebookSDK/AccountKit.framework; sourceTree = SOURCE_ROOT; };
+		09D15C621E7A799F00D3E288 /* AccountKitStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AccountKitStrings.bundle; path = SDK/FacebookSDK/AccountKitStrings.bundle; sourceTree = SOURCE_ROOT; };
+		09D15C631E7A799F00D3E288 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = SDK/FacebookSDK/Bolts.framework; sourceTree = SOURCE_ROOT; };
+		09D15C641E7A799F00D3E288 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = SDK/FacebookSDK/FBSDKCoreKit.framework; sourceTree = SOURCE_ROOT; };
+		09D15C651E7A799F00D3E288 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = SDK/FacebookSDK/FBSDKLoginKit.framework; sourceTree = SOURCE_ROOT; };
+		09D15C661E7A799F00D3E288 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = SDK/FacebookSDK/FBSDKShareKit.framework; sourceTree = SOURCE_ROOT; };
+		09D15C6E1E7A79C200D3E288 /* iPray-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPray-Bridging-Header.h"; sourceTree = "<group>"; };
+		09D15C6F1E7A79C300D3E288 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "supporting file/Constants.swift"; sourceTree = SOURCE_ROOT; };
+		09D15C721E7A79C300D3E288 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = "supporting file/MBProgressHUD.h"; sourceTree = SOURCE_ROOT; };
+		09D15C731E7A79C300D3E288 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = "supporting file/MBProgressHUD.m"; sourceTree = SOURCE_ROOT; };
+		09D15C761E7A79C300D3E288 /* SupportingFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SupportingFileViewController.swift; path = "supporting file/SupportingFileViewController.swift"; sourceTree = SOURCE_ROOT; };
+		09D15C771E7A79C300D3E288 /* webserviceUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = webserviceUrl.swift; path = "supporting file/webserviceUrl.swift"; sourceTree = SOURCE_ROOT; };
+		09D15C821E7AA1E900D3E288 /* ProfileSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileSettingViewController.swift; sourceTree = "<group>"; };
+		09D15C841E7AAF8600D3E288 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "supporting file/Reachability.h"; sourceTree = SOURCE_ROOT; };
+		09D15C851E7AAF8600D3E288 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "supporting file/Reachability.m"; sourceTree = SOURCE_ROOT; };
+		09D15C871E7ABC5800D3E288 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		09D15C891E7AC43400D3E288 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../../../Library/Developer/Xcode/DerivedData/iPray-cytuqgqttrifeqdsjwgfhwzcjyqi/Build/Products/Debug-iphonesimulator/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		09D99C671EA72FEA008A7FDD /* CountryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryListViewController.swift; path = Classes/CountryListViewController.swift; sourceTree = "<group>"; };
+		09D99C6B1EA73016008A7FDD /* MobileOtpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobileOtpViewController.swift; sourceTree = "<group>"; };
+		09D99C6D1EA7302C008A7FDD /* ForgotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotViewController.swift; sourceTree = "<group>"; };
+		09E536D41E98A73D0025074A /* iPray.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPray.entitlements; sourceTree = "<group>"; };
+		2717D8A42267372200BF4B84 /* ShareGroupPrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShareGroupPrayerViewController.swift; path = "Create Group/ShareGroupPrayerViewController.swift"; sourceTree = "<group>"; };
+		27250847224E16E7001B2BAD /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HelpViewController.swift; path = Classes/HelpViewController.swift; sourceTree = "<group>"; };
+		273FF2E222787738009F79C3 /* TagPrayerPopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagPrayerPopUpViewController.swift; sourceTree = "<group>"; };
+		27826BC922E861610073FF4D /* CustomNotification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomNotification.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		27826BCB22E861620073FF4D /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		27826BCD22E861620073FF4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27947562224F37F3007DDF8E /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
+		27B0069A2319251000184229 /* CustomNotification.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CustomNotification.entitlements; sourceTree = "<group>"; };
+		27E34E172265E76100397061 /* TagRequestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TagRequestListViewController.swift; path = Classes/TagRequestListViewController.swift; sourceTree = "<group>"; };
+		43201DE924892C3E000CA054 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		4392079E24C010D300966CC0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		43D9D59824508F7800C8FC2C /* UKWebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKWebViewViewController.swift; sourceTree = "<group>"; };
+		77E855311167F0F9F52F1A1B /* Pods_iPray.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iPray.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A00700D1F7CB40700369AC7 /* ServiceUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServiceUtility.swift; path = "supporting file/ServiceUtility.swift"; sourceTree = SOURCE_ROOT; };
+		8A1BA7C01F8398B100520B52 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		8A1BA7C11F8398B100520B52 /* PrayerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrayerTableViewCell.xib; sourceTree = "<group>"; };
+		8A4276091FC42D9200B16A41 /* UploadGroupImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadGroupImageViewController.swift; sourceTree = "<group>"; };
+		8A42760B1FC42E4000B16A41 /* CreateGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupViewController.swift; sourceTree = "<group>"; };
+		8A42760D1FC42EBA00B16A41 /* GroupSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSettingViewController.swift; sourceTree = "<group>"; };
+		8A42760F1FC4308A00B16A41 /* GroupWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupWallViewController.swift; sourceTree = "<group>"; };
+		8A4276111FC452A100B16A41 /* InviteAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteAdminViewController.swift; sourceTree = "<group>"; };
+		8A5E30831FC6E87000F0ABB6 /* GroupPrayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupPrayerTableViewCell.swift; path = Classes/GroupModule/Cells/GroupPrayerTableViewCell.swift; sourceTree = "<group>"; };
+		8A5E30841FC6E87100F0ABB6 /* GroupPrayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GroupPrayerTableViewCell.xib; path = Classes/GroupModule/Cells/GroupPrayerTableViewCell.xib; sourceTree = "<group>"; };
+		8A702F9C200F535F00CF38A3 /* CopyPrayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyPrayerListViewController.swift; sourceTree = "<group>"; };
+		8A79171C1FB190090081C25D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8A8B36AA20296D58008F6F00 /* BubbleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BubbleCollectionViewCell.swift; path = Classes/BubbleCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A8B36AB20296D58008F6F00 /* BubbleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BubbleCollectionViewCell.xib; path = Classes/BubbleCollectionViewCell.xib; sourceTree = "<group>"; };
+		8A95051D1FC2DA78003392F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Group.storyboard; sourceTree = "<group>"; };
+		8A95051F1FC2DABE003392F0 /* GroupListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GroupListViewController.swift; path = Classes/GroupModule/GroupListViewController.swift; sourceTree = "<group>"; };
+		8AB4160E1FC57C7700704A57 /* SearchGroupPrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SearchGroupPrayerViewController.swift; path = Classes/GroupModule/SearchGroupPrayerViewController.swift; sourceTree = "<group>"; };
+		8AB416101FC59D0600704A57 /* GroupListModulerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupListModulerViewController.swift; sourceTree = "<group>"; };
+		8AB416111FC59D0600704A57 /* AddGroupPrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupPrayerViewController.swift; sourceTree = "<group>"; };
+		8AD2B61E20204A770079837B /* AdoptedPrayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AdoptedPrayerListViewController.swift; path = Classes/AdoptedPrayerListViewController.swift; sourceTree = "<group>"; };
+		8AE4B4AA2003427600E352FA /* InviteMembersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteMembersViewController.swift; sourceTree = "<group>"; };
+		90720C3B36B815E186963FAA /* Pods-iPray.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPray.release.xcconfig"; path = "Pods/Target Support Files/Pods-iPray/Pods-iPray.release.xcconfig"; sourceTree = "<group>"; };
+		9818E16EB09AF5103205BF75 /* Pods-iPray.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iPray.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iPray/Pods-iPray.debug.xcconfig"; sourceTree = "<group>"; };
+		9B1CFBE925D417E300C054BE /* Login_FaceBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_FaceBook.swift; sourceTree = "<group>"; };
+		9B1CFBEE25D4185300C054BE /* Login_Apple.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Apple.swift; sourceTree = "<group>"; };
+		9DBDAB3E1F87B67800F9135A /* PrayerListModulerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PrayerListModulerViewController.swift; path = Classes/PrayerListModulerViewController.swift; sourceTree = "<group>"; };
+		E20D8E471E827B1800A5E204 /* AddPrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddPrayerViewController.swift; path = Classes/AddPrayerViewController.swift; sourceTree = "<group>"; };
+		E2A9E8331E7A5AFF0094B6CC /* AccountCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCreateViewController.swift; sourceTree = "<group>"; };
+		E2A9E8341E7A5AFF0094B6CC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Classes/AppDelegate.swift; sourceTree = "<group>"; };
+		E2A9E8351E7A5AFF0094B6CC /* DonationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DonationViewController.swift; path = Classes/DonationViewController.swift; sourceTree = "<group>"; };
+		E2A9E8361E7A5AFF0094B6CC /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E2A9E8371E7A5AFF0094B6CC /* SearchIprayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchIprayViewController.swift; path = Classes/SearchIprayViewController.swift; sourceTree = "<group>"; };
+		E2A9E8381E7A5AFF0094B6CC /* SharePrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SharePrayerViewController.swift; path = Classes/SharePrayerViewController.swift; sourceTree = "<group>"; };
+		E2A9E8391E7A5AFF0094B6CC /* ShowPrayerListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShowPrayerListViewController.swift; path = Classes/ShowPrayerListViewController.swift; sourceTree = "<group>"; };
+		E2A9E83A1E7A5AFF0094B6CC /* UploadImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		E2A9E83C1E7A5AFF0094B6CC /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E2A9E84E1E7D0ABD0094B6CC /* Montserrat-Black_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Black_0.otf"; path = "font/Montserrat-Black_0.otf"; sourceTree = "<group>"; };
+		E2A9E84F1E7D0ABD0094B6CC /* Montserrat-ExtraBold_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold_0.otf"; path = "font/Montserrat-ExtraBold_0.otf"; sourceTree = "<group>"; };
+		E2A9E8501E7D0ABD0094B6CC /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.otf"; path = "font/Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
+		E2A9E8511E7D0ABD0094B6CC /* Montserrat-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraLight.otf"; path = "font/Montserrat-ExtraLight.otf"; sourceTree = "<group>"; };
+		E2A9E8521E7D0ABD0094B6CC /* Montserrat-Light_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Light_0.otf"; path = "font/Montserrat-Light_0.otf"; sourceTree = "<group>"; };
+		E2A9E8531E7D0ABD0094B6CC /* Montserrat-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.otf"; path = "font/Montserrat-Medium.otf"; sourceTree = "<group>"; };
+		E2A9E8541E7D0ABD0094B6CC /* Montserrat-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.otf"; path = "font/Montserrat-Regular.otf"; sourceTree = "<group>"; };
+		E2A9E8551E7D0ABD0094B6CC /* Montserrat-SemiBold_0.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold_0.otf"; path = "font/Montserrat-SemiBold_0.otf"; sourceTree = "<group>"; };
+		E2A9E8561E7D0ABD0094B6CC /* Montserrat-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.otf"; path = "font/Montserrat-SemiBold.otf"; sourceTree = "<group>"; };
+		E2A9E8571E7D0ABD0094B6CC /* Montserrat-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Thin.otf"; path = "font/Montserrat-Thin.otf"; sourceTree = "<group>"; };
+		E2A9E8581E7D0ABD0094B6CC /* Montserrat-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-UltraLight.otf"; path = "font/Montserrat-UltraLight.otf"; sourceTree = "<group>"; };
+		E2A9E8591E7D0ABD0094B6CC /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "font/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		E2A9E85A1E7D0ABD0094B6CC /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "font/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0949A9621E727EFC00C410CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09AAAFD91EAA335C006F2FE5 /* AVFoundation.framework in Frameworks */,
+				09AAAFD71EAA330D006F2FE5 /* Accelerate.framework in Frameworks */,
+				09AAAFAB1EA8CA1B006F2FE5 /* CoreLocation.framework in Frameworks */,
+				09D15C8A1E7AC43400D3E288 /* AFNetworking.framework in Frameworks */,
+				09D15C881E7ABC5800D3E288 /* libsqlite3.0.tbd in Frameworks */,
+				09D15C691E7A799F00D3E288 /* Bolts.framework in Frameworks */,
+				09D15C6A1E7A799F00D3E288 /* FBSDKCoreKit.framework in Frameworks */,
+				09D15C6C1E7A799F00D3E288 /* FBSDKShareKit.framework in Frameworks */,
+				09D15C6B1E7A799F00D3E288 /* FBSDKLoginKit.framework in Frameworks */,
+				AC386FC35BF0810CF93338E0 /* Pods_iPray.framework in Frameworks */,
+				09D15C671E7A799F00D3E288 /* AccountKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27826BC622E861610073FF4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003EBBF024F62D49003F6305 /* Development */ = {
+			isa = PBXGroup;
+			children = (
+				00408C0724FE0E59003541D4 /* iPray */,
+				003EBBF324F62D49003F6305 /* SupportingFiles */,
+			);
+			path = Development;
+			sourceTree = "<group>";
+		};
+		003EBBF324F62D49003F6305 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				003EBBF424F62D49003F6305 /* CustomeComponents */,
+				003EBBF724F62D49003F6305 /* Manager */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		003EBBF424F62D49003F6305 /* CustomeComponents */ = {
+			isa = PBXGroup;
+			children = (
+				003EBBF524F62D49003F6305 /* Categories */,
+			);
+			path = CustomeComponents;
+			sourceTree = "<group>";
+		};
+		003EBBF524F62D49003F6305 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				003EBBF624F62D49003F6305 /* iPray+UIColor.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		003EBBF724F62D49003F6305 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				003EBBF824F62D49003F6305 /* DefaultsManager.swift */,
+				0014582A24FBF14300259D78 /* UtilsManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		00408C0724FE0E59003541D4 /* iPray */ = {
+			isa = PBXGroup;
+			children = (
+				005466052524F1AD009BD909 /* RootNavigationVCTR */,
+				00408C0824FE0E59003541D4 /* UserManagement */,
+			);
+			path = iPray;
+			sourceTree = "<group>";
+		};
+		00408C0824FE0E59003541D4 /* UserManagement */ = {
+			isa = PBXGroup;
+			children = (
+				09D15C821E7AA1E900D3E288 /* ProfileSettingViewController.swift */,
+				8A79171C1FB190090081C25D /* HomeViewController.swift */,
+				E2A9E8361E7A5AFF0094B6CC /* LoginViewController.swift */,
+				0981BCD61EEFF56F00265B88 /* ResetPasswordViewController.swift */,
+				09D99C6B1EA73016008A7FDD /* MobileOtpViewController.swift */,
+				09D99C6D1EA7302C008A7FDD /* ForgotViewController.swift */,
+				E2A9E83A1E7A5AFF0094B6CC /* UploadImageViewController.swift */,
+				E2A9E8331E7A5AFF0094B6CC /* AccountCreateViewController.swift */,
+				002435DE251FB00E0084B812 /* UserManager.swift */,
+				9B1CFBE925D417E300C054BE /* Login_FaceBook.swift */,
+				9B1CFBEE25D4185300C054BE /* Login_Apple.swift */,
+			);
+			path = UserManagement;
+			sourceTree = "<group>";
+		};
+		005466052524F1AD009BD909 /* RootNavigationVCTR */ = {
+			isa = PBXGroup;
+			children = (
+				099B0C051E8FD0D400720639 /* RootNavigationViewController.swift */,
+				E2A9E83C1E7A5AFF0094B6CC /* WelcomeViewController.swift */,
+			);
+			name = RootNavigationVCTR;
+			path = Development/RootNavigationVCTR;
+			sourceTree = SOURCE_ROOT;
+		};
+		07B2F1D52403A83200DFAB13 /* Bubble Animation(facebook) */ = {
+			isa = PBXGroup;
+			children = (
+				07B2F1D62403A88500DFAB13 /* bubbleAnimations.swift */,
+			);
+			name = "Bubble Animation(facebook)";
+			sourceTree = "<group>";
+		};
+		09041AC11E8529D50052A581 /* Bubbles */ = {
+			isa = PBXGroup;
+			children = (
+				092F43601E8A9D1100363ACC /* BubblesNavigationController.swift */,
+				09041ABF1E8521410052A581 /* BubblesViewController.swift */,
+				092497451E84EE7A0077FF94 /* DataModuleClass.swift */,
+				8A8B36AB20296D58008F6F00 /* BubbleCollectionViewCell.xib */,
+				8A8B36AA20296D58008F6F00 /* BubbleCollectionViewCell.swift */,
+			);
+			name = Bubbles;
+			sourceTree = "<group>";
+		};
+		09041AC21E852A2B0052A581 /* Login Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Login Module";
+			sourceTree = "<group>";
+		};
+		0949A95C1E727EFC00C410CC = {
+			isa = PBXGroup;
+			children = (
+				4392079E24C010D300966CC0 /* GoogleService-Info.plist */,
+				003EBBF024F62D49003F6305 /* Development */,
+				0949A9671E727EFC00C410CC /* iPray */,
+				09D15C7E1E7A79CA00D3E288 /* SupportingFiles */,
+				09D15C5F1E7A6D8C00D3E288 /* SDK */,
+				E2A9E8681E7D0AC70094B6CC /* Font */,
+				27826BCA22E861620073FF4D /* CustomNotification */,
+				0949A9661E727EFC00C410CC /* Products */,
+				0DE03D1A427EAC8B462DFB01 /* Pods */,
+				3473BBE3E6876AD735D6B9DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0949A9661E727EFC00C410CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0949A9651E727EFC00C410CC /* iPray.app */,
+				27826BC922E861610073FF4D /* CustomNotification.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0949A9671E727EFC00C410CC /* iPray */ = {
+			isa = PBXGroup;
+			children = (
+				07B2F1D52403A83200DFAB13 /* Bubble Animation(facebook) */,
+				E2A9E8341E7A5AFF0094B6CC /* AppDelegate.swift */,
+				09D15C6E1E7A79C200D3E288 /* iPray-Bridging-Header.h */,
+				0949A96C1E727EFD00C410CC /* Main.storyboard */,
+				E2A9E8471E7A5B2B0094B6CC /* Version 1 module */,
+				8A95051B1FC2DA39003392F0 /* Group Module */,
+			);
+			path = iPray;
+			sourceTree = "<group>";
+		};
+		094E74221F29B9DE00D2090C /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				091D1F3C1F207CD600E185F2 /* DatabaseHandler.h */,
+				09D15C6F1E7A79C300D3E288 /* Constants.swift */,
+				091D1F3D1F207CD600E185F2 /* DatabaseHandler.m */,
+				094E74201F29B98300D2090C /* iPray.sqlite */,
+				0949A9741E727EFD00C410CC /* Info.plist */,
+				0949A96F1E727EFD00C410CC /* Assets.xcassets */,
+				09E536D41E98A73D0025074A /* iPray.entitlements */,
+				0949A9711E727EFD00C410CC /* LaunchScreen.storyboard */,
+			);
+			name = Extra;
+			sourceTree = "<group>";
+		};
+		09698C0C1E8E9626007B729C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				092F435A1E8A9C9C00363ACC /* ManageContact.swift */,
+				E2A9E8381E7A5AFF0094B6CC /* SharePrayerViewController.swift */,
+				09BA8A951EE91E9200E7B9C7 /* ManageContactbackgroud.swift */,
+				27947562224F37F3007DDF8E /* AddNewContactViewController.swift */,
+				09D99C671EA72FEA008A7FDD /* CountryListViewController.swift */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
+		09C1660D1ECC2AE40028C694 /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9E8351E7A5AFF0094B6CC /* DonationViewController.swift */,
+			);
+			name = Donation;
+			sourceTree = "<group>";
+		};
+		09D15C5F1E7A6D8C00D3E288 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				09D15C6D1E7A79A600D3E288 /* Facebook */,
+			);
+			name = SDK;
+			path = iPray;
+			sourceTree = "<group>";
+		};
+		09D15C6D1E7A79A600D3E288 /* Facebook */ = {
+			isa = PBXGroup;
+			children = (
+				09D15C611E7A799F00D3E288 /* AccountKit.framework */,
+				09D15C621E7A799F00D3E288 /* AccountKitStrings.bundle */,
+				09D15C631E7A799F00D3E288 /* Bolts.framework */,
+				09D15C641E7A799F00D3E288 /* FBSDKCoreKit.framework */,
+				09D15C651E7A799F00D3E288 /* FBSDKLoginKit.framework */,
+				09D15C661E7A799F00D3E288 /* FBSDKShareKit.framework */,
+			);
+			name = Facebook;
+			sourceTree = "<group>";
+		};
+		09D15C7E1E7A79CA00D3E288 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				8A702F9C200F535F00CF38A3 /* CopyPrayerListViewController.swift */,
+				094E74221F29B9DE00D2090C /* Extra */,
+				09D15C721E7A79C300D3E288 /* MBProgressHUD.h */,
+				09D15C731E7A79C300D3E288 /* MBProgressHUD.m */,
+				09D15C761E7A79C300D3E288 /* SupportingFileViewController.swift */,
+				09D15C841E7AAF8600D3E288 /* Reachability.h */,
+				09D15C851E7AAF8600D3E288 /* Reachability.m */,
+				09D15C771E7A79C300D3E288 /* webserviceUrl.swift */,
+			);
+			name = SupportingFiles;
+			path = iPray;
+			sourceTree = "<group>";
+		};
+		09E536D51E98AC260025074A /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9E8391E7A5AFF0094B6CC /* ShowPrayerListViewController.swift */,
+				27E34E172265E76100397061 /* TagRequestListViewController.swift */,
+				09967FB11E7D55F7006CE20C /* PrayerRequestViewController.swift */,
+				8AD2B61E20204A770079837B /* AdoptedPrayerListViewController.swift */,
+				E2A9E8371E7A5AFF0094B6CC /* SearchIprayViewController.swift */,
+				9DBDAB3E1F87B67800F9135A /* PrayerListModulerViewController.swift */,
+				E20D8E471E827B1800A5E204 /* AddPrayerViewController.swift */,
+				27250847224E16E7001B2BAD /* HelpViewController.swift */,
+				273FF2E222787738009F79C3 /* TagPrayerPopUpViewController.swift */,
+				8A1BA7C41F839E5800520B52 /* Prayer Cell */,
+				43D9D59824508F7800C8FC2C /* UKWebViewViewController.swift */,
+			);
+			name = Prayer;
+			sourceTree = "<group>";
+		};
+		0DE03D1A427EAC8B462DFB01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9818E16EB09AF5103205BF75 /* Pods-iPray.debug.xcconfig */,
+				90720C3B36B815E186963FAA /* Pods-iPray.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		27826BCA22E861620073FF4D /* CustomNotification */ = {
+			isa = PBXGroup;
+			children = (
+				27B0069A2319251000184229 /* CustomNotification.entitlements */,
+				27826BCB22E861620073FF4D /* NotificationService.swift */,
+				27826BCD22E861620073FF4D /* Info.plist */,
+			);
+			path = CustomNotification;
+			sourceTree = "<group>";
+		};
+		3473BBE3E6876AD735D6B9DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09AAAFD81EAA335C006F2FE5 /* AVFoundation.framework */,
+				09AAAFD61EAA330D006F2FE5 /* Accelerate.framework */,
+				09AAAFAA1EA8CA1B006F2FE5 /* CoreLocation.framework */,
+				09D15C891E7AC43400D3E288 /* AFNetworking.framework */,
+				09D15C871E7ABC5800D3E288 /* libsqlite3.0.tbd */,
+				77E855311167F0F9F52F1A1B /* Pods_iPray.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43201DE824892C1C000CA054 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				43201DE924892C3E000CA054 /* Utility.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		8A1BA7C41F839E5800520B52 /* Prayer Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8A1BA7C01F8398B100520B52 /* PrayerTableViewCell.swift */,
+				8A1BA7C11F8398B100520B52 /* PrayerTableViewCell.xib */,
+			);
+			name = "Prayer Cell";
+			sourceTree = "<group>";
+		};
+		8A5DDB811FECCB6200B2357D /* Group Wall */ = {
+			isa = PBXGroup;
+			children = (
+				8A42760F1FC4308A00B16A41 /* GroupWallViewController.swift */,
+				8AB416101FC59D0600704A57 /* GroupListModulerViewController.swift */,
+				8AB416111FC59D0600704A57 /* AddGroupPrayerViewController.swift */,
+				8A5E30861FC6E87B00F0ABB6 /* Cells */,
+			);
+			path = "Group Wall";
+			sourceTree = "<group>";
+		};
+		8A5E30861FC6E87B00F0ABB6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8A5E30831FC6E87000F0ABB6 /* GroupPrayerTableViewCell.swift */,
+				8A5E30841FC6E87100F0ABB6 /* GroupPrayerTableViewCell.xib */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8A95051B1FC2DA39003392F0 /* Group Module */ = {
+			isa = PBXGroup;
+			children = (
+				8A95051C1FC2DA78003392F0 /* Group.storyboard */,
+				8A95051F1FC2DABE003392F0 /* GroupListViewController.swift */,
+				2717D8A42267372200BF4B84 /* ShareGroupPrayerViewController.swift */,
+				8AF575761FEB925D007F2722 /* Create Group */,
+				8A5DDB811FECCB6200B2357D /* Group Wall */,
+				8AF575771FEB9283007F2722 /* Group Profile Module */,
+				8AB4160E1FC57C7700704A57 /* SearchGroupPrayerViewController.swift */,
+			);
+			name = "Group Module";
+			sourceTree = "<group>";
+		};
+		8AF575761FEB925D007F2722 /* Create Group */ = {
+			isa = PBXGroup;
+			children = (
+				8A42760B1FC42E4000B16A41 /* CreateGroupViewController.swift */,
+				8A4276091FC42D9200B16A41 /* UploadGroupImageViewController.swift */,
+			);
+			path = "Create Group";
+			sourceTree = "<group>";
+		};
+		8AF575771FEB9283007F2722 /* Group Profile Module */ = {
+			isa = PBXGroup;
+			children = (
+				8A42760D1FC42EBA00B16A41 /* GroupSettingViewController.swift */,
+				8A4276111FC452A100B16A41 /* InviteAdminViewController.swift */,
+				8AE4B4AA2003427600E352FA /* InviteMembersViewController.swift */,
+			);
+			path = "Group Profile Module";
+			sourceTree = "<group>";
+		};
+		E2A9E8471E7A5B2B0094B6CC /* Version 1 module */ = {
+			isa = PBXGroup;
+			children = (
+				43201DE824892C1C000CA054 /* Utility */,
+				8A00700D1F7CB40700369AC7 /* ServiceUtility.swift */,
+				09E536D51E98AC260025074A /* Prayer */,
+				09041AC11E8529D50052A581 /* Bubbles */,
+				09041AC21E852A2B0052A581 /* Login Module */,
+				09698C0C1E8E9626007B729C /* Contacts */,
+				09C1660D1ECC2AE40028C694 /* Donation */,
+			);
+			name = "Version 1 module";
+			sourceTree = "<group>";
+		};
+		E2A9E8681E7D0AC70094B6CC /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9E84E1E7D0ABD0094B6CC /* Montserrat-Black_0.otf */,
+				E2A9E84F1E7D0ABD0094B6CC /* Montserrat-ExtraBold_0.otf */,
+				E2A9E8501E7D0ABD0094B6CC /* Montserrat-ExtraBold.otf */,
+				E2A9E8511E7D0ABD0094B6CC /* Montserrat-ExtraLight.otf */,
+				E2A9E8521E7D0ABD0094B6CC /* Montserrat-Light_0.otf */,
+				E2A9E8531E7D0ABD0094B6CC /* Montserrat-Medium.otf */,
+				E2A9E8541E7D0ABD0094B6CC /* Montserrat-Regular.otf */,
+				E2A9E8551E7D0ABD0094B6CC /* Montserrat-SemiBold_0.otf */,
+				E2A9E8561E7D0ABD0094B6CC /* Montserrat-SemiBold.otf */,
+				E2A9E8571E7D0ABD0094B6CC /* Montserrat-Thin.otf */,
+				E2A9E8581E7D0ABD0094B6CC /* Montserrat-UltraLight.otf */,
+				E2A9E8591E7D0ABD0094B6CC /* Montserrat-Bold.ttf */,
+				E2A9E85A1E7D0ABD0094B6CC /* Montserrat-Regular.ttf */,
+			);
+			name = Font;
+			path = iPray;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0949A9641E727EFC00C410CC /* iPray */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0949A9771E727EFD00C410CC /* Build configuration list for PBXNativeTarget "iPray" */;
+			buildPhases = (
+				B7E7E4CE6FC98921D378EEA2 /* [CP] Check Pods Manifest.lock */,
+				0949A9611E727EFC00C410CC /* Sources */,
+				0949A9621E727EFC00C410CC /* Frameworks */,
+				0949A9631E727EFC00C410CC /* Resources */,
+				8DB928559B9F93121410C674 /* [CP] Embed Pods Frameworks */,
+				4340C10824B8955F001210E9 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPray;
+			productName = iPray;
+			productReference = 0949A9651E727EFC00C410CC /* iPray.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27826BC822E861610073FF4D /* CustomNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27826BD122E861620073FF4D /* Build configuration list for PBXNativeTarget "CustomNotification" */;
+			buildPhases = (
+				27826BC522E861610073FF4D /* Sources */,
+				27826BC622E861610073FF4D /* Frameworks */,
+				27826BC722E861610073FF4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNotification;
+			productName = CustomNotification;
+			productReference = 27826BC922E861610073FF4D /* CustomNotification.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0949A95D1E727EFC00C410CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = TrivialWorks;
+				TargetAttributes = {
+					0949A9641E727EFC00C410CC = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = QDH3R3A5Y3;
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+					27826BC822E861610073FF4D = {
+						CreatedOnToolsVersion = 10.2;
+						DevelopmentTeam = 7N3232N69G;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0949A9601E727EFC00C410CC /* Build configuration list for PBXProject "iPray" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0949A95C1E727EFC00C410CC;
+			productRefGroup = 0949A9661E727EFC00C410CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0949A9641E727EFC00C410CC /* iPray */,
+				27826BC822E861610073FF4D /* CustomNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0949A9631E727EFC00C410CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				275F7DB82345F60F0093D503 /* Montserrat-Regular.ttf in Resources */,
+				275F7DB02345F60F0093D503 /* Montserrat-Light_0.otf in Resources */,
+				4392079F24C010D300966CC0 /* GoogleService-Info.plist in Resources */,
+				275F7DAE2345F60F0093D503 /* Montserrat-ExtraBold.otf in Resources */,
+				8A8B36AD20296D58008F6F00 /* BubbleCollectionViewCell.xib in Resources */,
+				0949A9731E727EFD00C410CC /* LaunchScreen.storyboard in Resources */,
+				275F7DAF2345F60F0093D503 /* Montserrat-ExtraLight.otf in Resources */,
+				8A1BA7C31F8398B100520B52 /* PrayerTableViewCell.xib in Resources */,
+				275F7DB72345F60F0093D503 /* Montserrat-Bold.ttf in Resources */,
+				275F7DB12345F60F0093D503 /* Montserrat-Medium.otf in Resources */,
+				275F7DB42345F60F0093D503 /* Montserrat-SemiBold.otf in Resources */,
+				275F7DAC2345F60F0093D503 /* Montserrat-Black_0.otf in Resources */,
+				094E74211F29B98300D2090C /* iPray.sqlite in Resources */,
+				275F7DB62345F60F0093D503 /* Montserrat-UltraLight.otf in Resources */,
+				0949A9701E727EFD00C410CC /* Assets.xcassets in Resources */,
+				8A95051E1FC2DA78003392F0 /* Group.storyboard in Resources */,
+				8A77592B1FC82960004818A2 /* GroupPrayerTableViewCell.xib in Resources */,
+				0949A96E1E727EFD00C410CC /* Main.storyboard in Resources */,
+				275F7DB52345F60F0093D503 /* Montserrat-Thin.otf in Resources */,
+				09D15C681E7A799F00D3E288 /* AccountKitStrings.bundle in Resources */,
+				275F7DB32345F60F0093D503 /* Montserrat-SemiBold_0.otf in Resources */,
+				275F7DAD2345F60F0093D503 /* Montserrat-ExtraBold_0.otf in Resources */,
+				275F7DB22345F60F0093D503 /* Montserrat-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27826BC722E861610073FF4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439207A024C010D300966CC0 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4340C10824B8955F001210E9 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"  \n";
+			showEnvVarsInLog = 0;
+		};
+		8DB928559B9F93121410C674 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iPray/Pods-iPray-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/FaveButton/FaveButton.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FaveButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iPray/Pods-iPray-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7E7E4CE6FC98921D378EEA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iPray-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0949A9611E727EFC00C410CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D15C7D1E7A79C300D3E288 /* webserviceUrl.swift in Sources */,
+				8AB416131FC59D0700704A57 /* AddGroupPrayerViewController.swift in Sources */,
+				8A702F9D200F535F00CF38A3 /* CopyPrayerListViewController.swift in Sources */,
+				07B2F1D72403A88500DFAB13 /* bubbleAnimations.swift in Sources */,
+				09D99C681EA72FEA008A7FDD /* CountryListViewController.swift in Sources */,
+				E2A9E8401E7A5AFF0094B6CC /* LoginViewController.swift in Sources */,
+				09D99C6E1EA7302C008A7FDD /* ForgotViewController.swift in Sources */,
+				09D15C781E7A79C300D3E288 /* Constants.swift in Sources */,
+				0014582B24FBF14300259D78 /* UtilsManager.swift in Sources */,
+				099B0C061E8FD0D400720639 /* RootNavigationViewController.swift in Sources */,
+				27E34E182265E76100397061 /* TagRequestListViewController.swift in Sources */,
+				E2A9E8461E7A5AFF0094B6CC /* WelcomeViewController.swift in Sources */,
+				E2A9E83E1E7A5AFF0094B6CC /* AppDelegate.swift in Sources */,
+				002435DF251FB00E0084B812 /* UserManager.swift in Sources */,
+				E2A9E83F1E7A5AFF0094B6CC /* DonationViewController.swift in Sources */,
+				8AE4B4AB2003427600E352FA /* InviteMembersViewController.swift in Sources */,
+				9DBDAB3F1F87B67800F9135A /* PrayerListModulerViewController.swift in Sources */,
+				09967FB21E7D55F7006CE20C /* PrayerRequestViewController.swift in Sources */,
+				9B1CFBEF25D4185300C054BE /* Login_Apple.swift in Sources */,
+				2717D8A52267372300BF4B84 /* ShareGroupPrayerViewController.swift in Sources */,
+				8AD2B61F20204A770079837B /* AdoptedPrayerListViewController.swift in Sources */,
+				8A4276101FC4308A00B16A41 /* GroupWallViewController.swift in Sources */,
+				003EBBFA24F62D49003F6305 /* iPray+UIColor.swift in Sources */,
+				8A5E30851FC6E87100F0ABB6 /* GroupPrayerTableViewCell.swift in Sources */,
+				8A9505201FC2DABE003392F0 /* GroupListViewController.swift in Sources */,
+				09D15C831E7AA1E900D3E288 /* ProfileSettingViewController.swift in Sources */,
+				E20D8E491E827B1800A5E204 /* AddPrayerViewController.swift in Sources */,
+				27947563224F37F3007DDF8E /* AddNewContactViewController.swift in Sources */,
+				8AB416121FC59D0700704A57 /* GroupListModulerViewController.swift in Sources */,
+				8A42760E1FC42EBB00B16A41 /* GroupSettingViewController.swift in Sources */,
+				8A42760A1FC42D9200B16A41 /* UploadGroupImageViewController.swift in Sources */,
+				43201DEA24892C3E000CA054 /* Utility.swift in Sources */,
+				091D1F3F1F207CD600E185F2 /* DatabaseHandler.m in Sources */,
+				E2A9E8441E7A5AFF0094B6CC /* UploadImageViewController.swift in Sources */,
+				8A8B36AC20296D58008F6F00 /* BubbleCollectionViewCell.swift in Sources */,
+				092F43611E8A9D1100363ACC /* BubblesNavigationController.swift in Sources */,
+				E2A9E83D1E7A5AFF0094B6CC /* AccountCreateViewController.swift in Sources */,
+				8A1BA7C21F8398B100520B52 /* PrayerTableViewCell.swift in Sources */,
+				09D15C861E7AAF8600D3E288 /* Reachability.m in Sources */,
+				9B1CFBEA25D417E300C054BE /* Login_FaceBook.swift in Sources */,
+				09D15C7C1E7A79C300D3E288 /* SupportingFileViewController.swift in Sources */,
+				09D15C7A1E7A79C300D3E288 /* MBProgressHUD.m in Sources */,
+				8A4276121FC452A100B16A41 /* InviteAdminViewController.swift in Sources */,
+				8A79171D1FB1900A0081C25D /* HomeViewController.swift in Sources */,
+				8A00700E1F7CB40700369AC7 /* ServiceUtility.swift in Sources */,
+				8AB4160F1FC57C7700704A57 /* SearchGroupPrayerViewController.swift in Sources */,
+				E2A9E8431E7A5AFF0094B6CC /* ShowPrayerListViewController.swift in Sources */,
+				273FF2E322787739009F79C3 /* TagPrayerPopUpViewController.swift in Sources */,
+				27250848224E16E7001B2BAD /* HelpViewController.swift in Sources */,
+				092F435B1E8A9C9D00363ACC /* ManageContact.swift in Sources */,
+				09041AC01E8521410052A581 /* BubblesViewController.swift in Sources */,
+				09BA8A961EE91E9200E7B9C7 /* ManageContactbackgroud.swift in Sources */,
+				003EBBFB24F62D49003F6305 /* DefaultsManager.swift in Sources */,
+				43D9D59924508F7900C8FC2C /* UKWebViewViewController.swift in Sources */,
+				092497461E84EE7A0077FF94 /* DataModuleClass.swift in Sources */,
+				E2A9E8411E7A5AFF0094B6CC /* SearchIprayViewController.swift in Sources */,
+				0981BCD71EEFF56F00265B88 /* ResetPasswordViewController.swift in Sources */,
+				09D99C6C1EA73016008A7FDD /* MobileOtpViewController.swift in Sources */,
+				8A42760C1FC42E4000B16A41 /* CreateGroupViewController.swift in Sources */,
+				E2A9E8421E7A5AFF0094B6CC /* SharePrayerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27826BC522E861610073FF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07B2F1D82403A88500DFAB13 /* bubbleAnimations.swift in Sources */,
+				9B1CFBEB25D417E300C054BE /* Login_FaceBook.swift in Sources */,
+				27826BCC22E861620073FF4D /* NotificationService.swift in Sources */,
+				9B1CFBF025D4185300C054BE /* Login_Apple.swift in Sources */,
+				43201DEB24892C3E000CA054 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0949A96C1E727EFD00C410CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0949A96D1E727EFD00C410CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0949A9711E727EFD00C410CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0949A9721E727EFD00C410CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8A95051C1FC2DA78003392F0 /* Group.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A95051D1FC2DA78003392F0 /* Base */,
+			);
+			name = Group.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0949A9751E727EFD00C410CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QDH3R3A5Y3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "b6c9bbf2-6662-40cd-93bd-5262300b78f9";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0949A9761E727EFD00C410CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = QDH3R3A5Y3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "b6c9bbf2-6662-40cd-93bd-5262300b78f9";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0949A9781E727EFD00C410CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9818E16EB09AF5103205BF75 /* Pods-iPray.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iPray/iPray.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.6.8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = QDH3R3A5Y3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					"$(PROJECT_DIR)/SDK/FacebookSDK",
+				);
+				INFOPLIST_FILE = iPray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPray/CardIO",
+					"$(PROJECT_DIR)/SDK/CardIO",
+				);
+				MARKETING_VERSION = 2.6.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gforceacceleration.ipray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = iPrayDistribution;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iPray/iPray-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0949A9791E727EFD00C410CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90720C3B36B815E186963FAA /* Pods-iPray.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iPray/iPray.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2.6.8;
+				DEVELOPMENT_TEAM = QDH3R3A5Y3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+					"$(PROJECT_DIR)/SDK/FacebookSDK",
+				);
+				INFOPLIST_FILE = iPray/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPray/CardIO",
+					"$(PROJECT_DIR)/SDK/CardIO",
+				);
+				MARKETING_VERSION = 2.6.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gforceacceleration.ipray;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = iPrayDistribution;
+				RUN_CLANG_STATIC_ANALYZER = NO;
+				SWIFT_DISABLE_SAFETY_CHECKS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "iPray/iPray-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		27826BD222E861620073FF4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N3232N69G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.6.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gforceacceleration.ipray.CustomNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CustomNotificationDev;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27826BD322E861620073FF4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Apple Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: G-Force Accelerated Marketing Inc. (QDH3R3A5Y3)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7N3232N69G;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = CustomNotification/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MARKETING_VERSION = 2.6.1;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gforceacceleration.ipray.CustomNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Custome_Notification_AppStore_14_Aug;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0949A9601E727EFC00C410CC /* Build configuration list for PBXProject "iPray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0949A9751E727EFD00C410CC /* Debug */,
+				0949A9761E727EFD00C410CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0949A9771E727EFD00C410CC /* Build configuration list for PBXNativeTarget "iPray" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0949A9781E727EFD00C410CC /* Debug */,
+				0949A9791E727EFD00C410CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27826BD122E861620073FF4D /* Build configuration list for PBXNativeTarget "CustomNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27826BD222E861620073FF4D /* Debug */,
+				27826BD322E861620073FF4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0949A95D1E727EFC00C410CC /* Project object */;
+}
